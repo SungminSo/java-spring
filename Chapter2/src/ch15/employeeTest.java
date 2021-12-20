@@ -5,7 +5,8 @@ public class employeeTest {
         Employee employeeLee = new Employee();
         employeeLee.setEmployeeName("Lee");
 
-        System.out.println(employeeLee.serialNum);
+//        System.out.println(employeeLee.serialNum);
+        System.out.println(employeeLee.getSerialNum());
 
         Employee employeeKim = new Employee();
         employeeKim.setEmployeeName("Kim");
